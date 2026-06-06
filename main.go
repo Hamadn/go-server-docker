@@ -36,5 +36,5 @@ func handlePage(w http.ResponseWriter, r *http.Request) {
 </body>
 </html>
 `
-	w.write([]byte(page))
+	w.Write([]byte(page))
 }
